@@ -1,4 +1,4 @@
-# avadge-novelty
+# avadge-webapp
 
 Claude Code / Claude Desktop skill: публикация «Новинок» (премьер) в каталог AVADGE.
 
@@ -13,10 +13,10 @@ Claude Code / Claude Desktop skill: публикация «Новинок» (п�
 
 ```bash
 # для одного проекта
-cp -r avadge-novelty <project>/.claude/skills/
+cp -r avadge-webapp <project>/.claude/skills/
 
 # для всех проектов
-cp -r avadge-novelty ~/.claude/skills/
+cp -r avadge-webapp ~/.claude/skills/
 ```
 
 Дальше скилл подхватывается автоматически — по описанию во frontmatter.
