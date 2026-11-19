@@ -5,6 +5,8 @@ description: Публикация «Новинок» (премьер) в кат�
 
 # Публикация новинки в каталог AVADGE
 
+> **Вызов инструментов (с 20.11.2026).** MCP `avadge` показывает только `search_tools`, `describe_tool`, `call_tool`. Имя известно → `call_tool(name="novelty_get_novelty", arguments={…})`; схема аргументов → `describe_tool(name)`; имя неизвестно → `search_tools(query)` (по-русски или префикс `novelty_`). `list_novelties` = `novelty_list_novelties`.
+
 Новинка — это премьера: машины ещё нет в наличии, она живёт в отдельном разделе
 `/api/v1/catalog/search/?section=novelty` и намеренно скрыта из обычного каталога и
 из фида «в наличии». Технически это `Car` с `novelty=true`.
